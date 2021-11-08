@@ -168,7 +168,11 @@ body {
   color: var(--first-button-color);
   background-color: var(--accent-color);
 }
-
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--first-button-color);
+  background-color: var(--accent-color);
+}
 .project {
   font-weight: 700;
   font-size: 18px;
@@ -206,6 +210,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
 }
 
 .footer-link {
